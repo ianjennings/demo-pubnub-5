@@ -1,0 +1,34 @@
+version: 4.0.57
+steps:
+  - prompt: Assert that all navigation links
+    commands:
+      - command: hover-text
+        text: Products
+        description: navigation link
+        action: hover
+      - command: hover-text
+        text: Solutions
+        description: navigation link
+        action: hover
+      - command: hover-text
+        text: Pricing
+        description: navigation link
+        action: hover
+      - command: hover-text
+        text: Developers
+        description: navigation link
+        action: hover
+      - command: hover-text
+        text: Resources
+        description: navigation link
+        action: hover
+      - command: hover-text
+        text: SUPPORT
+        description: navigation link
+        action: hover
+      - command: hover-text
+        text: LOGIN
+        description: navigation link
+        action: hover
+      - command: assert
+        expect: all navigation links are present
