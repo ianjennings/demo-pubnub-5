@@ -1,0 +1,12 @@
+version: 4.0.57
+steps:
+  - prompt: Locate the GDPR compliance text.
+    commands:
+      - command: hover-text
+        text: GDPR, HIPAA, SOC2, ISO 27001 + more
+        description: compliance section mentioning GDPR
+        action: hover
+  - prompt: Assert that the GDPR compliance text is visible.
+    commands:
+      - command: assert
+        expect: GDPR compliance text is visible under the COMPLIANCE section
