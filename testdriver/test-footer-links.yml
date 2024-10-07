@@ -1,0 +1,43 @@
+version: 4.0.57
+steps:
+  - prompt: Scroll to the footer of the page.
+    commands:
+      - command: scroll-until-text
+        text: Copyright 2024
+        direction: down
+  - prompt: Scroll to the footer of the page.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll to the footer of the page.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll to the footer of the page.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Assert that all footer links are visible.
+    commands:
+      - command: assert
+        expect: Privacy Policy and Cookie Settings are visible
+  - prompt: Assert that all footer links are visible.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Assert that all footer links are visible.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Assert that all footer links are visible.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Assert that all footer links are visible.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Assert that all footer links are visible.
+    commands:
+      - command: scroll
+        direction: down
