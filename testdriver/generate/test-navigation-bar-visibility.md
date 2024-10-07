@@ -1,0 +1,1 @@
+1. /explore Assert that all navigation links
