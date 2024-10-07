@@ -1,0 +1,19 @@
+version: 4.0.57
+steps:
+  - prompt: Click on the search icon.
+    commands:
+      - command: hover-image
+        description: search icon in the webpage header
+        action: click
+  - prompt: Enter a search query.
+    commands:
+      - command: hover-text
+        text: Search or ask anything
+        description: search input field
+        action: click
+      - command: type
+        text: real-time developer tools
+  - prompt: Assert that search results are displayed.
+    commands:
+      - command: assert
+        expect: search results are displayed
