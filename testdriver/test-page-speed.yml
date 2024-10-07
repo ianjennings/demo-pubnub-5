@@ -1,0 +1,68 @@
+version: 4.0.57
+steps:
+  - prompt: Measure the page load time.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: press-keys
+        keys:
+          - f5
+  - prompt: Measure the page load time.
+    commands:
+      - command: press-keys
+        keys:
+          - control
+          - shift
+          - i
+      - command: hover-text
+        text: Network
+        description: network tab in developer tools
+        action: click
+  - prompt: Measure the page load time.
+    commands:
+      - command: hover-text
+        text: Network
+        description: network tab in developer tools
+        action: click
+  - prompt: Measure the page load time.
+    commands:
+      - command: hover-text
+        text: Network
+        description: network tab in developer tools
+        action: click
+  - prompt: Measure the page load time.
+    commands:
+      - command: hover-text
+        text: Network
+        description: network tab in developer tools
+        action: click
+  - prompt: Measure the page load time.
+    commands:
+      - command: hover-text
+        text: Network
+        description: network tab in developer tools
+        action: click
+  - prompt: Measure the page load time.
+    commands:
+      - command: hover-text
+        text: Network
+        description: network tab in developer tools
+        action: click
+  - prompt: Measure the page load time.
+    commands:
+      - command: hover-text
+        text: Network
+        description: network tab in developer tools
+        action: click
+  - prompt: Measure the page load time.
+    commands:
+      - command: hover-text
+        text: Network
+        description: network tab in developer tools
+        action: click
+  - prompt: Measure the page load time.
+    commands:
+      - command: hover-text
+        text: Network
+        description: network tab in developer tools
+        action: click
