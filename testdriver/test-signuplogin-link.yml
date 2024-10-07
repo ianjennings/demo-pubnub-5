@@ -1,0 +1,18 @@
+version: 4.0.57
+steps:
+  - prompt: Locate the "Login" link.
+    commands:
+      - command: hover-text
+        text: LOGIN
+        description: link in the header
+        action: hover
+  - prompt: Click the "Login" link.
+    commands:
+      - command: hover-text
+        text: LOGIN
+        description: link in the header
+        action: click
+  - prompt: Assert that the login form or page appears.
+    commands:
+      - command: assert
+        expect: the login form is visible with "Log in" text
